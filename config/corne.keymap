@@ -62,7 +62,7 @@
 &kp TAB    &kp GRAVE        &kp LESS_THAN  &kp GREATER_THAN  &kp MINUS  &kp PIPE         &kp CARET    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &kp UNDERSCORE     &kp BACKSPACE
 &kp LSHFT  &kp EXCLAMATION  &kp ASTERISK   &kp SLASH         &kp EQUAL  &kp AMPERSAND    &kp HASH     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp DOUBLE_QUOTES  &trans
 &kp LCTRL  &kp TILDE        &kp PLUS       &kp LBKT          &kp RBKT   &kp PERCENT      &kp AT_SIGN  &kp COLON             &kp COMMA              &kp PERIOD     &kp SQT            &kp ESCAPE
-                                           &trans            &trans     &kp SPACE        &kp ENTER    &trans                &trans
+                                           &trans            &to 0      &kp SPACE        &kp ENTER    &trans                &trans
             >;
         };
 
@@ -71,7 +71,7 @@
 &kp F1     &kp F2  &kp F3  &kp F4  &kp F5  &kp F6       &kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
 &kp LSHFT  &trans  &trans  &trans  &trans  &trans       &trans     &trans  &trans  &trans   &trans   &trans
 &kp LCTRL  &trans  &trans  &trans  &trans  &trans       &trans     &trans  &trans  &trans   &trans   &kp ESCAPE
-                           &trans  &trans  &kp SPACE    &kp ENTER  &trans  &trans
+                           &trans  &to 0   &kp SPACE    &kp ENTER  &trans  &trans
             >;
         };
     };
