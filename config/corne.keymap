@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/rgb.h>
 
 &led_strip {
-  chain-length = <27>; // 21 backlight + 6 underglow
+    chain-length = <27>; // 21 backlight + 6 underglow
 };
 
 / {
@@ -84,9 +84,9 @@
 
         fn_layer {
             bindings = <
-&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6           &kp F7          &kp F8           &kp F9           &kp F10          &trans
-&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F11          &kp F12         &trans           &trans           &trans           &trans
-&trans  &trans        &trans        &trans        &trans        &bt BT_CLR      &rgb_ug RGB_EFF  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_BRI  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
+&trans  &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6           &kp F7          &kp F8           &kp F9  &kp F10          &trans
+&trans  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp F11          &kp F12         &trans           &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI
+&trans  &trans        &trans        &trans        &trans        &bt BT_CLR      &rgb_ug RGB_EFF  &rgb_ug RGB_ON  &rgb_ug RGB_OFF  &trans  &rgb_ug RGB_HUD  &rgb_ug RGB_HUI
                                     &trans        &trans        &kp SPACE       &kp ENTER        &trans          &trans
             >;
         };
